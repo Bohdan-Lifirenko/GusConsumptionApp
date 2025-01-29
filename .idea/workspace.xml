@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52b45a0a-fb7e-4a89-8d78-4d0acb547e43" name="Changes" comment="change file line separator to LF">
-      <change afterPath="$PROJECT_DIR$/app/arhive.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_arhive.py" afterDir="false" />
+    <list default="true" id="52b45a0a-fb7e-4a89-8d78-4d0acb547e43" name="Changes" comment="add arhive model">
+      <change afterPath="$PROJECT_DIR$/app/services/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/device.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/gap_sercher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_device.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,8 +52,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for test_device.TestDevice.executor": "Run",
     "Python tests.Python tests in test_arhive.py.executor": "Run",
+    "Python tests.Python tests in test_arhive_model.py.executor": "Run",
     "Python tests.Python tests in test_db.py.executor": "Run",
+    "Python tests.Python tests in test_device.py.executor": "Run",
+    "Python.arhive_model.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
@@ -65,6 +70,29 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Python tests for test_device.TestDevice" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="GusConsumptionApp" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_device.TestDevice&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_device.TestDevice" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -99,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738061407527</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add arhive model">
+      <option name="closed" value="true" />
+      <created>1738065682900</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738065682900</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,10 +155,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add values to gitignore file" />
     <MESSAGE value="change file line separator to LF" />
-    <option name="LAST_COMMIT_MESSAGE" value="change file line separator to LF" />
+    <MESSAGE value="add arhive model" />
+    <option name="LAST_COMMIT_MESSAGE" value="add arhive model" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/GusConsumptionApp$main.coverage" NAME="main Coverage Results" MODIFIED="1738061586558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/GusConsumptionApp$.coverage" NAME=" Coverage Results" MODIFIED="1738065347968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/GusConsumptionApp$main.coverage" NAME="main Coverage Results" MODIFIED="1738071801259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GusConsumptionApp$.coverage" NAME=" Coverage Results" MODIFIED="1738071792866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/GusConsumptionApp$arhive_model.coverage" NAME="arhive_model Coverage Results" MODIFIED="1738065419066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
   </component>
 </project>
